@@ -1,0 +1,563 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+
+
+    <!--  CSS stylesheet  Bootstrap-->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!--  CSS stylesheet  -->
+    <link rel="stylesheet" href="code.css">
+
+
+    <!--   Font Awesome   -->
+    <script defer src=" https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+    <!--   Bootstrap Scripts  -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+    
+
+    <!-- Nav Bar -->
+    <section id="title">
+
+        <div class="container-fluid">
+
+
+            <nav class="navbar navbar-expand-lg navbar-dark ">
+
+
+                <p class="navbar-brand" href="">
+                    Coding
+                    <svg class=" col-lg-3" viewbox="-10,-10,20,20" height=7vh width=10vw>
+                        <g fill="white">
+                            <circle r="2" data-fill="`hsl(${(50*t)%360},55%,55%)`"></circle>
+                            <circle r="0.2"
+                                    data-cx="Math.cos(t*2)*9" data-cy="Math.sin(t*2)*4"></circle>
+                            <circle transform="rotate(45)" r="0.2"
+                                    data-cx="Math.cos(t*3+2)*9" data-cy="Math.sin(t*3+2)*4"></circle>
+                            <circle transform="rotate(-45)" r="0.2"
+                                    data-cx="Math.cos(t*4+4)*9" data-cy="Math.sin(t*4+4)*4"></circle>
+                            <circle transform="rotate(90)" r="0.2"
+                                    data-cx="Math.cos(t*5+5)*9" data-cy="Math.sin(t*5+5)*4"></circle>
+                        </g>
+
+                        <g stroke-width="0.03" stroke="white" fill="none">
+                            <ellipse rx="9" ry="4"></ellipse>
+                            <ellipse transform="rotate(45)" rx="9" ry="4"></ellipse>
+                            <ellipse transform="rotate(-45)" rx="9" ry="4"></ellipse>
+                            <ellipse transform="rotate(90)" rx="9" ry="4"></ellipse>
+                        </g>
+                    </svg>
+                </p>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#footer">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#pricing">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#cta">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+
+
+
+            <!-- Title -->
+
+            <div class="row">
+                <div class=" col-lg-4  typewriter " id="messege">
+
+                    <h1 id="line-3">Hi, I'm Joo.</h1>
+                    <p id="line-1">An independent web developer, based in perlin.</p>
+                    <p id="line-2">Send me a message to discuss your project.</p>
+
+                    <div class="circle">
+                        <div class="icon">
+                            <i class="fas fa-envelope wobble"></i>
+                        </div>
+                        <img class="svg-web_developer" src="undraw_web_developer_p3e5.svg" />
+                    </div>
+                </div>
+
+                <div class=" col-lg-4 ">
+                    <div class="main">
+                        <div class="human">
+                            <div class="human__hair-b"></div>
+                            <div class="human__head">
+                                <div class="human__face">
+                                    <div class="human__hair-c">
+                                        <div class="human__hair"></div>
+                                    </div>
+                                    <div class="human__nose"></div>
+                                    <div class="human__eye-l"></div>
+                                    <div class="human__eye-r"></div>
+                                    <div class="human__cheeks-l"></div>
+                                    <div class="human__cheeks-r"></div>
+                                    <div class="human__mouth"></div>
+                                    <div class="human__eyebrow-l"></div>
+                                    <div class="human__eyebrow-r"></div>
+                                </div>
+                            </div>
+                            <div class="human__ears">
+                                <div class="human__ear-l"></div>
+                                <div class="human__ear-r"></div>
+                            </div>
+                            <div class="human__arm-l"></div>
+                            <div class="human__arm-r"></div>
+                            <div class="human__body-c">
+                                <div class="human__body"></div>
+                            </div>
+                            <div class="human__legs">
+                                <div class="human__leg-l"></div>
+                                <div class="human__leg-r"></div>
+                            </div>
+                            <div class="human__shoes">
+                                <div class="human__shoe-c">
+                                    <div class="human__shoe-l"></div>
+                                </div>
+                                <div class="human__shoe-c">
+                                    <div class="human__shoe-r"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="table">
+                            <div class="table__top">
+                                <div class="laptop"></div>
+                                <div class="cup"></div>
+                            </div>
+                            <div class="table__bottom"></div>
+                            <div class="table__legs">
+                                <div class="table__leg"></div>
+                                <div class="table__leg"></div>
+                                <div class="table__leg"></div>
+                                <div class="table__leg"></div>
+                            </div>
+                        </div>
+                        <div class="chair">
+                            <div class="chair__top"></div>
+                            <div class="chair__line"></div>
+                            <div class="chair__base"></div>
+                            <div class="chair__wheels">
+                                <div class="chair__wheel"></div>
+                                <div class="chair__wheel"></div>
+                            </div>
+                        </div>
+                        <div class="trashcan"></div>
+                        <div class="window">
+                            <div class="window__container">
+                                <div class="building">
+                                    <div class="building__window building__window--active building__window-on-1"></div>
+                                    <div class="building__window building__window--active building__window-on-2"></div>
+                                    <div class="building__window"></div>
+                                    <div class="building__window"></div>
+                                    <div class="building__window"></div>
+                                    <div class="building__window"></div>
+                                    <div class="building__window"></div>
+                                    <div class="building__window building__window--active"></div>
+                                    <div class="building__window"></div>
+                                    <div class="building__window"></div>
+                                    <div class="building__window"></div>
+                                    <div class="building__window building__window--active"></div>
+                                    <div class="building__window"></div>
+                                    <div class="building__window"></div>
+                                    <div class="building__window building__window--active building__window-on-3"></div>
+                                    <div class="building__window"></div>
+                                    <div class="building__window"></div>
+                                    <div class="building__window"></div>
+                                    <div class="building__window building__window--active"></div>
+                                    <div class="building__window building__window--active"></div>
+                                    <div class="building__window"></div>
+                                </div>
+                                <div class="building">
+                                    <div class="building__window"></div>
+                                    <div class="building__window building__window--active"></div>
+                                    <div class="building__window building__window--active"></div>
+                                    <div class="building__window"></div>
+                                    <div class="building__window building__window--active"></div>
+                                    <div class="building__window building__window--active"></div>
+                                    <div class="building__window"></div>
+                                    <div class="building__window"></div>
+                                    <div class="building__window building__window--active building__window-on-4"></div>
+                                    <div class="building__window"></div>
+                                    <div class="building__window"></div>
+                                    <div class="building__window"></div>
+                                    <div class="building__window building__window--active"></div>
+                                    <div class="building__window building__window--active building__window-on-3"></div>
+                                    <div class="building__window"></div>
+                                    <div class="building__window"></div>
+                                </div>
+                                <div class="building">
+                                    <div class="building__window-f"></div>
+                                    <div class="building__window-f building__window--active building__window-on-1"></div>
+                                    <div class="building__window-f building__window--active"></div>
+                                    <div class="building__window-f"></div>
+                                    <div class="building__window-f"></div>
+                                    <div class="building__window-f"></div>
+                                    <div class="building__window-f building__window--active"></div>
+                                    <div class="building__window-f"></div>
+                                    <div class="building__window-f"></div>
+                                    <div class="building__window-f building__window--active building__window-on-2"></div>
+                                    <div class="building__window-f building__window--active"></div>
+                                    <div class="building__window-f"></div>
+                                    <div class="building__window-f building__window--active"></div>
+                                    <div class="building__window-f"></div>
+                                </div>
+                                <div class="building">
+                                    <div class="building__window"></div>
+                                    <div class="building__window building__window--active building__window-on-1"></div>
+                                    <div class="building__window building__window--active"></div>
+                                    <div class="building__window"></div>
+                                    <div class="building__window building__window--active"></div>
+                                    <div class="building__window building__window--active building__window-on-4"></div>
+                                    <div class="building__window"></div>
+                                    <div class="building__window"></div>
+                                    <div class="building__window building__window--active"></div>
+                                    <div class="building__window"></div>
+                                    <div class="building__window"></div>
+                                    <div class="building__window"></div>
+                                    <div class="building__window building__window--active"></div>
+                                    <div class="building__window building__window--active"></div>
+                                    <div class="building__window"></div>
+                                    <div class="building__window"></div>
+                                    <div class="building__window building__window--active"></div>
+                                    <div class="building__window"></div>
+                                    <div class="building__window"></div>
+                                    <div class="building__window"></div>
+                                    <div class="building__window building__window--active"></div>
+                                    <div class="building__window building__window--active"></div>
+                                    <div class="building__window building__window--active"></div>
+                                    <div class="building__window building__window--active"></div>
+                                    <div class="building__window building__window--active"></div>
+                                    <div class="building__window building__window--active"></div>
+                                    <div class="building__window"></div>
+                                    <div class="building__window"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="lamp">
+                            <div class="lamp__top">
+                                <div class="lamp__light"></div>
+                            </div>
+                            <div class="lamp__base-c">
+                                <div class="lamp__base"></div>
+                            </div>
+                        </div>
+                        <div class="bricks">
+                            <div class="brick"></div>
+                            <div class="brick"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- ////////////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- Features -->
+    <section id="features">
+
+        <div class="row">
+            <div class="feature-box col-lg-4  ">
+
+
+                <svg class="img-features" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                     width="40" height="40"
+                     viewBox="0 0 172 172"
+                     style=" fill:#000000;">
+                <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="none" stroke-linecap="none" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" stroke="none" stroke-width="1" stroke-linecap="butt"></path><g stroke="#f1c40f" stroke-width="8.6" stroke-linecap="round"><path d="M43,47.3l-35.475,38.7l35.475,38.7M129,47.3l35.475,38.7l-35.475,38.7M64.5,150.5l43,-129"></path></g></g></svg>
+
+                <h3>Pure Code</h3>
+                <p>it's made from A to Z without Any library or framework!</p>
+
+            </div>
+           
+            <div class="feature-box col-lg-4 ">
+
+                <svg class="img-features"  xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                     width="48" height="48"
+                     viewBox="0 0 172 172"
+                     style=" fill:#000000;">
+                <defs><linearGradient x1="35.3245" y1="35.3245" x2="136.6755" y2="136.6755" gradientUnits="userSpaceOnUse" id="color-1_pIPl8tqh3igN_gr1"><stop offset="0" stop-color="#f1c40f"></stop><stop offset="1" stop-color="#f1c40f"></stop></linearGradient><linearGradient x1="46.58333" y1="88.84158" x2="129" y2="88.84158" gradientUnits="userSpaceOnUse" id="color-2_pIPl8tqh3igN_gr2"><stop offset="0.824" stop-color="#ffffff"></stop><stop offset="0.931" stop-color="#ffffff"></stop><stop offset="1" stop-color="#ffffff"></stop></linearGradient></defs>
+                <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g><path d="M157.66667,86c0,39.57792 -32.08875,71.66667 -71.66667,71.66667c-39.57792,0 -71.66667,-32.08875 -71.66667,-71.66667c0,-39.57792 32.08875,-71.66667 71.66667,-71.66667c39.57792,0 71.66667,32.08875 71.66667,71.66667z" fill="url(#color-1_pIPl8tqh3igN_gr1)"></path><path d="M76.29992,117.20008l-28.66667,-28.66667c-1.40108,-1.40108 -1.40108,-3.66933 0,-5.06683l5.06683,-5.06683c1.40108,-1.40108 3.66933,-1.40108 5.06683,0l21.06642,21.06642l38.98308,-38.98308c1.40108,-1.40108 3.66933,-1.40108 5.06683,0l5.06683,5.06683c1.40108,1.40108 1.40108,3.66933 0,5.06683l-46.58333,46.58333c-1.3975,1.40108 -3.66933,1.40108 -5.06683,0z" fill="url(#color-2_pIPl8tqh3igN_gr2)"></path></g></g></svg>
+
+
+          
+                <h3>Easy to use</h3>
+                <p>Ready to use with your own content or customize the source files!</p>
+            </div>
+
+            <div class="feature-box col-lg-4 ">
+
+                <svg class="img-features" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                     width="64" height="64"
+                     viewBox="0 0 172 172"
+                     style=" fill:#000000;">
+                    <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g><path d="M51.0625,112.875h69.875l26.875,53.75h-123.625z" fill="#000000"></path><path d="M30.23438,157.4875c-0.67187,0 -1.34375,-0.13438 -1.88125,-0.5375c-2.01562,-1.075 -2.6875,-3.49375 -1.6125,-5.50937l4.03125,-7.525c1.075,-2.01562 3.49375,-2.6875 5.50937,-1.6125c2.01562,1.075 2.6875,3.49375 1.6125,5.50938l-4.03125,7.525c-0.80625,1.34375 -2.15,2.15 -3.62812,2.15z" fill="#f1c40f"></path><path d="M40.98438,166.625h-26.875c0,-7.39062 6.04688,-13.4375 13.4375,-13.4375c7.39063,0 13.4375,6.04688 13.4375,13.4375z" fill="#000000"></path><path d="M14.10938,170.65625c-2.28437,0 -4.03125,-1.74687 -4.03125,-4.03125c0,-9.675 7.79375,-17.46875 17.46875,-17.46875c1.20937,0 2.41875,0.13438 3.49375,0.40312c2.15,0.40313 3.62813,2.55313 3.09062,4.70313c-0.40313,2.15 -2.55312,3.62813 -4.70312,3.09063c-0.67187,-0.13438 -1.20937,-0.13438 -1.88125,-0.13438c-5.24062,0 -9.40625,4.16563 -9.40625,9.40625c0,2.28438 -1.74688,4.03125 -4.03125,4.03125zM113.4125,116.90625h-65.30625c-2.28438,0 -4.03125,-1.74688 -4.03125,-4.03125c0,-2.28437 1.74687,-4.03125 4.03125,-4.03125h65.30625c2.28437,0 4.03125,1.74688 4.03125,4.03125c0,2.28437 -1.88125,4.03125 -4.03125,4.03125z" fill="#f1c40f"></path><path d="M86,44.34375c-14.84265,0 -26.875,12.03235 -26.875,26.875c0,14.84265 12.03235,26.875 26.875,26.875c14.84265,0 26.875,-12.03235 26.875,-26.875c0,-14.84265 -12.03235,-26.875 -26.875,-26.875z" fill="#000000"></path><path d="M86,102.125c-17.06562,0 -30.90625,-13.84063 -30.90625,-30.90625c0,-17.06563 13.84063,-30.90625 30.90625,-30.90625c17.06562,0 30.90625,13.84062 30.90625,30.90625c0,17.06562 -13.84063,30.90625 -30.90625,30.90625zM86,48.375c-12.63125,0 -22.84375,10.2125 -22.84375,22.84375c0,12.63125 10.2125,22.84375 22.84375,22.84375c12.63125,0 22.84375,-10.2125 22.84375,-22.84375c0,-12.63125 -10.2125,-22.84375 -22.84375,-22.84375z" fill="#f1c40f"></path><g><path d="M49.71875,166.625l-8.6,-49.04687c-0.40312,-2.41875 1.47813,-4.70312 4.03125,-4.70312h81.83437c2.55312,0 4.43437,2.28437 4.03125,4.70313l-8.73437,49.04688z" fill="#f1c40f"></path><path d="M86,133.03125c-3.71066,0 -6.71875,3.00809 -6.71875,6.71875c0,3.71066 3.00809,6.71875 6.71875,6.71875c3.71066,0 6.71875,-3.00809 6.71875,-6.71875c0,-3.71066 -3.00809,-6.71875 -6.71875,-6.71875z" fill="#000000"></path><path d="M49.71875,170.65625c-1.88125,0 -3.62813,-1.34375 -4.03125,-3.35937l-8.46563,-49.04687c-0.40312,-2.41875 0.26875,-4.70312 1.74688,-6.58438c1.47812,-1.88125 3.7625,-2.82187 6.18125,-2.82187h81.83437c2.41875,0 4.70313,1.075 6.18125,2.82187c1.47812,1.88125 2.15,4.16562 1.74687,6.58438l-8.6,49.04688c-0.40313,2.15 -2.41875,3.62813 -4.70312,3.225c-2.15,-0.40312 -3.62812,-2.41875 -3.225,-4.70312l8.46563,-48.9125h-81.7l8.6,49.04688c0.40312,2.15 -1.075,4.3 -3.225,4.70313c-0.40313,0 -0.5375,0 -0.80625,0z" fill="#f1c40f"></path><path d="M166.625,170.65625h-129.67187c-2.28437,0 -4.03125,-1.74687 -4.03125,-4.03125c0,-2.28438 1.74688,-4.03125 4.03125,-4.03125h129.67188c2.28438,0 4.03125,1.74687 4.03125,4.03125c0,2.28438 -1.74687,4.03125 -4.03125,4.03125z" fill="#f1c40f"></path></g><path d="M147.8125,170.65625c-1.47813,0 -2.95625,-0.80625 -3.62813,-2.28438l-9.40625,-18.94687c-0.94062,-2.01562 -0.13437,-4.43438 1.74688,-5.375c2.01563,-0.94063 4.43437,-0.13438 5.375,1.74687l9.40625,18.94688c0.94062,2.01563 0.13437,4.43437 -1.74688,5.375c-0.5375,0.40312 -1.075,0.5375 -1.74687,0.5375z" fill="#f1c40f"></path></g></g>
+                </svg>
+
+              
+                <h3>Fully Responsive</h3>
+                <p>This theme will look great on any device. on matter the size!</p>
+
+            </div>
+
+        </div>
+
+
+    <!-- Testimonials -->
+
+                <section id="testimonials">
+
+                    <div id="testimonials-carouse" class="carousel slide" data-ride="false">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <h2 class="testimonial-text">
+                                    <span>Fully Responsive Design</span> when you use a theme created by AZ Web Project, you know that the theme will look great on any device,
+                                    whether it's a phone, tablet, or desktop the page will behave responsively!
+                                </h2>
+                                <img class="testimonials-image" src="check-mark-laptop-screen_102902-436.jpg">
+                            </div>
+
+                            <div class="carousel-item">
+                                <h2 class="testimonial-text">
+                                    <span>Pure Code</span> We use pure code without any library or framework. We  make  out work  feom A to Z,
+                                    so that on additional useless size of your website, no extra files, only your pure code!
+
+                                </h2>
+                                <img class="testimonials-image" src="marvin-meyer-SYTO3xs06fU-unsplash.jpg">
+                            </div>
+
+                            <div class="carousel-item">
+                                <h2 class="testimonial-text">
+                                    <span>Easy to use & Customize</span> Landing Page is just HTML and CSS with a splash of SCSS for users
+                                    who demand some deeper customization options. Out of hte box, Just add your content  and images, and your new landing page will be ready to go !
+
+                                </h2>
+                                <img class="testimonials-image" src="Computer-Coding-Laptop.jpg">
+
+                            </div>
+
+                        </div>
+                        <a class="carousel-control-prev" href="#testimonials-carouse" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+
+                        </a>
+                        <a class="carousel-control-next" href="#testimonials-carouse" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+
+                        </a>
+                    </div>
+
+                </section>
+
+
+</section>
+
+    <!-- line -->
+
+    <div class="line"> </div>
+
+    <!-- line -->
+
+
+    <section id=" services ">
+
+        <h1 class=" top-side">
+            All Services
+            <img class="svg-productivity" src="undraw_dev_productivity_umsq.svg" />
+        </h1>
+        <p class="par-service"> We can do your website like  web and app or even games development. if you want creata website contact us!</p>
+
+        <div class="img-service ">
+            <img class="  fir-img col-lg-3" src="programmer-working-with-man-desk-office_23-2148284689.jpg " />
+            <img class="  sec-img col-lg-3" src="laptop-with-program-code-isometric-icon-software-development-programming-applications-dark-neon_39422-971.jpg " />
+            <img class="  thr-img col-lg-3" src="programmer-developer-discussion-team-when-work-office-with-related-background-theme_197170-130.jpg " />
+            <h1 class="title-service fir-titl "> Web Development </h1>
+            <h1 class="title-service sec-titl "> Games Development </h1>
+            <h1 class="title-service thr-titl "> App Development </h1>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- Pricing -->
+
+    <div id="container">
+
+        <img class="svg-noted" src="undraw_noted_pc9f.svg" />
+        <div id="box-section">
+            <div class="box box-purple">
+                <div class="box-header">
+                    Web Development
+                    <hr width="10%" />
+                </div><!-- box-header-->
+                <div class="box-content">
+                    Free
+                </div><!-- box-content -->
+                <div class="box-footer">
+                    <a href="javascript:;" class="btn btn-purple">Continue <i class="fa fa-chevron-right"></i></a>
+                </div>
+            </div><!-- box -->
+
+            <div class="box box-blue">
+                <div class="box-header">
+                    Games Development
+                    <hr width="10%" />
+                </div><!-- box-header-->
+                <div class="box-content">
+                    <div class="price">19 <span class="dollar">$</span></div>
+                    <div class="price-details">/ Month</div>
+                </div><!-- box-content -->
+                <div class="box-footer">
+                    <a href="javascript:;" class="btn btn-blue">Continue <i class="fa fa-chevron-right"></i></a>
+                </div>
+            </div><!-- box -->
+
+            <div class="box box-darkpurple">
+                <div class="box-header">
+                    App Development
+                    <hr width="10%" />
+                </div><!-- box-header-->
+                <div class="box-content">
+                    <div class="price">14<span class="dollar">$</span></div>
+                    <div class="price-details">/ Month</div>
+                </div><!-- box-content -->
+                <div class="box-footer">
+                    <a href="javascript:;" class="btn btn-darkpurple">Continue <i class="fa fa-chevron-right"></i></a>
+                </div>
+            </div><!-- box -->
+
+        </div>
+
+    </div>
+
+
+
+    <section id="courses">
+
+        <h1> Our Featured Courses </h1>
+        <p> Some courses they help you to study programing especially web develpoer  </p>
+        <p>This Courses Was Designed For Starting Out In Front End Web Development Wanting To Learn HTML5 ,CSS,JavaScript To Get Started...</p>
+        <button type="button" class="btn btn-dark">Learn more</button>
+        <img class="img-courses-svg" src="undraw_static_assets_rpm6.svg" />
+
+
+    </section>
+
+
+
+
+    <div id=" security">
+
+
+        <h1 class="head-Data-1"> Data Security </h1>
+        <h4 class="head-Data-2">User Protection</h4>
+        <p class="head-Data-3">
+            <span class="head-Data-3-span">Data Security is a process </span> of protecting files, databases, and accounts on a network by adopting a set of controls, applications,
+            and techniques that identify the relative importance of different datasets.
+        </p>
+        <button type="button" class="btn btn-warning">Learn More</button>
+
+
+
+
+        <div class="front">
+            <p> Build a landing page for your business or project and generate more leads!</p>
+
+            <form class="form-inline">
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text username-A " id="basic-addon1">@</span>
+
+                    </div>
+                    <input type="text" class="form-control username " placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                    <span class="input-group-text  " id="basic-addon1"> <img class="eys-password" src="https://img.icons8.com/dotty/80/000000/visible.png" /> </span>
+                    <input type="password" class=" form-control  " placeholder="Password" aria-label="Username" aria-describedby="basic-addon1">
+                </div>
+            </form>
+
+        </div>
+
+        <img class="img-security" src="undraw_security_o890.svg" />;
+
+
+    </div>
+
+
+
+
+
+    <!-- Icons -->
+
+
+    <footer id="footer">
+
+        <div class="container-color">
+            <ul class="color-switcher">
+                <li data-color="red"></li>
+                <li data-color="green"></li>
+                <li data-color="gold"></li>
+                <li data-color="blue"></li>
+
+            </ul>
+
+            <div class="contact-links">
+                <a class="btn contact-details"> <i class="fab fa-instagram"></i> </a>
+                <a class="btn contact-details"> <i class="fab fa-twitter"></i> </a>
+                <a class="btn contact-details"><i class="fab fa-codepen"></i></a>
+                <a class="btn contact-details"> <i class="fab fa-github"></i></a>
+                <a class="btn contact-details"><i class="fab fa-linkedin"></i></a>
+                <a class="btn contact-details"><i class="far fa-envelope"></i></a>
+
+            </div>
+
+        </div>
+
+        <p>© Copyright 2020 CODE</p>
+
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--   Jquary Scripts  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://rawcdn.githack.com/strangerintheq/formulanimator/0.0.4/formulanimator.js"></script>
+    <script src="code.js"></script>
+</body>
+</html>
